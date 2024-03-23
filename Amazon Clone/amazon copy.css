@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+}
+
+  .navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ; 
+
+  }
+
+   .logo-amazon{
+    width: 120px;
+    height: 60px;
+   }
+
+   .logo{
+    width: 114px;
+     height: 50px; 
+    background-image: url('amazon_logo.png');
+    padding: 1px 8px 5pxpx 6px;
+    margin: 1px 1px 1px 1px;
+    background-size: cover;
+    /* display: flex;
+    align-items: center; */
+   }
+
+    .box-two{
+        width: 100px;
+        height: 50px;
+        padding: 0px 9px 0px ;
+        margin: 5px 2px 5px 0px;
+       /* display: flex;
+       justify-content: ; */
+    }
+
+    .border{
+        border: 1.5px solid  transparent;
+    }
+      .border:hover{
+     border: 1.5px solid white;
+    }
+
+
+          /* box 2 */
+     .box-hello{
+        margin-left: 15px;
+        /* font-size: 0.85rem; */
+        color: #cccccc;
+        /* width: 128px;
+        height: 14px; */
+        /* background-color: #cccccc; */
+     }
+             
+     .box-icon{
+        display: flex;
+        align-items: center;
+
+     }
+
+      .box-fulladd{
+       font-size: 1rem;
+       margin-left: 3px;
+       padding-left: 3px;
+      }
+      
+      /* box three */
+      .box-nav{
+        width:45%;
+        height: 40px;
+        display: flex;
+        /* justify-content: space-evenly; */
+        border-radius: 4px;
+
+      }
+           .search-icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+
+      .box-all{
+         width: 50px;
+         height: 40px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: ;
+      }
+      .search-box{
+        width: 100%;
+      }
+
+      .search-icon{
+        width:45px ;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        background-color: #febd68;
+        color: black;
+        margin-left: 8px;
+        border-radius: 1.5px;  
+      }
+
+
+       /* box four */
+      .box-four{
+         /* width: 150px;  */
+        height: 45px;
+        margin-left: 10px;
+        /* padding-left: 10px; */
+        /* display: flex;
+        justify-content: center;
+        align-self: center;  */
+
+      }
+
+      .box-hello{
+       
+      }
+        
+      .box-account{
+        margin-left: 10px;
+      }
+
+      .box-five{
+        width: 70px;
+       padding-left: 15px;
+        
+      }
+
+      .box-seven{
+        /* width: 122px;
+        height: 40px; */
+      }
+      
+      
+      .icon-card i {
+        font-size: 30px;
+   }
+
+      
+      .icon-card{
+        /* width: 100px;
+        height: 40px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+      }
+
+
+        /* second navbar */
+
+          .second-nav{
+         height: 40px;
+         background-color: #222f3d;
+         display: flex;
+         color: white;
+         align-items: center;
+         justify-content: space-evenly;
+          }
+
+         .panel-two p{
+          display: inline; 
+          margin-right: 50px;
+         }
+
+          .panel-two {
+           width: 70%;
+          font-size: 0.85rem;
+          }
+         .panel-deals{
+         font-size: 0.9rem;
+         font-weight: 700;
+          }
+
+          /* hero section */
+
+          .hero-one{
+           height: 350px;
+           background-image: url('hero_image.jpg');
+           background-size: cover;
+           display: flex;
+           justify-content: center;
+           align-items:flex-end ;
+           /* text-decoration: none; */
+          }
+
+          .hero-mgs{
+            height: 40px;
+            background-color: white;
+            color:black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.85rem;
+            margin-bottom:20px ;
+          }
+
+        .hero-mgs a{
+          text-decoration: none;
+          padding-left: 10px;
+        }
+
+        .hero-image{
+          width: 25%;
+          display: flex;
+          justify-content: space-evenly;
+        }
+
+        .hero-main{
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-evenly;
+                  background-color:#e2e7e6 ;
+        }

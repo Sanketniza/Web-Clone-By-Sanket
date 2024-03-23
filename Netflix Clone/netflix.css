@@ -1,0 +1,558 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap') */
+
+*{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #232222;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+/*---- first page ------- */
+/* .navbar {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("IN-en-20230731-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+}
+
+.logo {
+  background-image: url(Netflix_Logo_PMS.png);
+  background-size: cover;
+  width: 150px;
+  cursor: pointer;
+  height: 50px;
+}
+
+
+.english {
+  color: white;
+  border: 2px solid rgb(107, 79, 79);
+  background: transparent;
+}
+
+.sign {
+  width: 56px;
+  height: 24px;
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border: 0.42x solid white;
+}
+
+.content-one {
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+}
+
+.content-two {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.content-three {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.content-four {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  width: 300px;
+  height: 30px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  padding-left: 20px;
+}
+
+.get {
+  color: white;
+  background-color: red;
+  height: 33px;
+  width: 100px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+} */
+
+/* ------------  second-page  ------------ */
+
+.second-page {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.second-one {
+  font-weight: 900-bold;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+
+.s {
+  margin-top: 10px;
+}
+
+.TV {
+  height: 350px;
+  width: 450px;
+  background-image: url("feature-1.png");
+  background-size: cover;
+}
+
+/* -----------  third-page  -------------- */
+.third-page {
+  width: 100%;
+  height: 450px;
+  background-color: #000;
+  margin-top: 5px;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.girl {
+  width: 300px;
+  height: 250px;
+  background-image: url("feature-2.png");
+  background-size: cover;
+  margin-right: 60px;
+}
+
+.third-content {
+
+}
+
+/*----------- four-page ----------*/
+
+.four-page {
+  width: 100%;
+  height: 420px;
+  background-color: #000;
+  margin-top: 5px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four-one {
+  font-weight: 900-bold;
+
+  /* padding-left: 100px;
+  padding-top: 150px; */
+  /* margin: auto; */
+}
+
+.four-two {
+  /* width: 500px;
+  height: 370px;
+  background-image: url("feature-3.png"); */
+
+  width: 300px;
+  height: 270px;
+  background-image: url("https://source.unsplash.com/random/600×500/?laptop = coder");
+  background-size: cover;
+  margin-left: 60px;
+  /* position: relative;
+  left: 600px;
+  bottom: 50px; */
+  /* padding-right: 300px; */
+  /* transform: translate(0, -50%); */
+}
+
+/*------------- five-page --------------*/
+.five-page {
+  width: 100%;
+  height: 420px;
+  background-color: #000;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boy {
+  width: 300px;
+  height: 250px;
+  background-image: url("feature-4.png");
+  background-size: cover;
+  margin-right: 60px;
+  /* position: relative;
+  top: 72px;
+  left: 200px; */
+}
+
+.five-content {
+  flex-direction: row-reverse;
+  /* position: relative;
+  top: 120px;
+  left: 250px; */
+}
+
+/*-------- six-page ----------*/
+.six-page {
+  width: 100%;
+  height: 700px;
+  background-color: #000;
+  margin-top: 5px;
+text-align: center;
+
+}
+
+.six-main {
+  padding-top: 72px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .six-box {
+  width: 90%;
+  height: 50px;
+  background-color: rgb(41, 38, 38);
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.fa-solid{
+  display: flex;
+  justify-content: flex-end;
+} */
+
+/* .six-box {
+  width: 90%;
+  height: 50px;
+  background-color: rgb(41, 38, 38);
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 10px; 
+  justify-content: space-between; 
+}
+
+.fa-solid.fa-plus {
+  margin-right: 10px; 
+} */
+
+/* 
+.ok {
+  display: flex;
+  justify-content: center;
+} */
+
+/* .six-box1 {
+  width: 90%;
+  height: 50px;
+  background-color: rgb(41, 38, 38);
+  margin-left: 45px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.six-box2 {
+  width: 90%;
+  height: 50px;
+  background-color: rgb(41, 38, 38);
+  margin-left: 45px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; // was missing from me
+  padding-left: 24px;
+}
+
+.six-box3 {
+  width: 90%;
+  height: 50px;
+  background-color: rgb(41, 38, 38);
+  margin-left: 45px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.six-box4 {
+  width: 90%;
+  height: 50px;
+  background-color: rgb(41, 38, 38);
+  margin-left: 45px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.six-box5 {
+  width: 90%;
+  height: 50px;
+  background-color: rgb(41, 38, 38);
+  margin-left: 45px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+} */
+
+#msg {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-fourp {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search {
+  width: 350px;
+  height: 45px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.getp {
+  color: white;
+  background-color: red;
+  height: 49px;
+  width: 150px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+/*---------- seven-page -------------*/
+.seven-page {
+  width: 100%;
+  height: 350px;
+  background-color: #000;
+  margin-top: 5px;
+  padding-top: 10%;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul a {
+  display: block;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+.seven-con {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.seven-p {
+  padding-left: 22%;
+  font-size: 0.8rem;
+}
+
+.button {
+  margin-left: 22%;
+  background: transparent;
+  color: white;
+  border: 1px solid whitesmoke;
+}
+
+#p {
+  padding-left: 22%;
+  font-size: 0.8rem;
+}
+
+/* chatgpt */
+
+/*----------- page six ----------*/
+
+/* Apply the common styles to all box classes */
+.six-box,
+.six-box1,
+.six-box2,
+.six-box3,
+.six-box4,
+.six-box5 {
+  width: 85%;
+  height: 50px;
+  background-color: rgb(41, 38, 38);
+  margin: auto;
+  /* margin-left: 45px; */
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  justify-content: space-between;
+}
+
+/* Apply the right padding to all boxes */
+.six-box,
+.six-box1,
+.six-box2,
+.six-box3,
+.six-box4,
+.six-box5 {
+  padding-right: 20px;
+}
+
+/* Apply the margin to all boxes except the first one */
+.six-box1,
+.six-box2,
+.six-box3,
+.six-box4,
+.six-box5 {
+  margin-top: 10px;
+}
+
+/*-------------- page one -------------*/
+
+/* Reset default browser styles */
+
+/* Apply background image to the navbar */
+.navbar {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("IN-en-20230731-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+/* Style for the navigation bar */
+.nav {
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%; /* Adjust padding for responsiveness */
+}
+
+/* Style for the Netflix logo */
+.logo {
+  background-image: url(Netflix_Logo_PMS.png);
+  background-size: cover;
+  background-size: contain;
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/* Style for language and sign-in buttons */
+.lang {
+  display: flex;
+  align-items: center;
+}
+
+.english {
+  color: white;
+  height: 30px;
+  border: 2px solid rgb(107, 79, 79);
+  background: transparent;
+}
+
+.sign {
+  width: 56px;
+  height: 24px;
+  margin-left: 10px;
+  background-color: red;
+  color: white;
+  border: 0.42px solid white;
+}
+
+/* Style for the content sections */
+.content-one,
+.content-two,
+.content-three,
+.content-four {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px;
+}
+
+/* .content-one{
+   margin-top: 100px;
+} */
+
+/* Style for the email input and "Get Started" button */
+.search-input {
+  width: 30%; /* Adjust width to be responsive */
+  height: 30px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+.get {
+  color: white;
+  background-color: red;
+  height: 40px;
+  width: 100px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white; */
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 0 2%;
+  }
+
+  .search-input {
+    width: 60%;
+  }
+}

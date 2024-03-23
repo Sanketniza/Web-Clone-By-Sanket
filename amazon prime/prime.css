@@ -1,0 +1,312 @@
+* {
+  /* background-color: rgb(2, 6, 26); */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(2, 6, 26);
+}
+
+/* .navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+} */
+
+/* page first  */
+
+.first-page {
+}
+
+.image-one {
+  background-image: url(MLP.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+}
+
+.content-one {
+  color: white;
+  font-size: 3vw;
+  padding-left: 40px;
+  padding-top: 40px;
+  /* font-weight: 200; */
+}
+
+.content-one1 {
+  color: white;
+  font-size: 1.5vw;
+  padding-left: 40px;
+  padding-top: 40px;
+  /* font-weight: bold; */
+}
+
+.button {
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+button {
+  background-color: rgba(6, 137, 189, 0.928);
+  color: white;
+  width: 280px;
+  height: 50px;
+  padding: 14px 20px 14px 20px;
+  font-size: 0.95vw;
+}
+
+/* p {
+   font-size: 2em;
+   color: white;
+   background-image: none;
+   background-color: transparent;
+ } */
+
+/*----------- page second ---------*/
+.image2 {
+  background-image: url(TVOD_MLP_Left.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 65vh;
+}
+
+.content-two {
+  color: white;
+  text-align: right;
+  font-size: 2.5vw;
+  padding-right: 150px;
+  padding-top: 160px;
+}
+
+.content-two1 {
+  color: white;
+  text-align: right;
+  font-size: 1.2vw;
+  padding-right: 160px;
+  /* padding-top: 40px; */
+}
+
+/* #two {
+  font-weight: lighter;
+} */
+
+.button-two {
+  padding-left: 1000px;
+}
+
+/*--------------- third-page --------------*/
+.third-page {
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+}
+
+.width {
+  width: 50%;
+}
+
+.content-three {
+  font-size: 2vw;
+  padding: 30px 20px 20px 60px;
+}
+
+.content-three1 {
+  font-size: 1.3vw;
+  font-weight: 50;
+  padding: 20px 20px 20px 60px;
+}
+
+.box-star {
+  margin-top: 30px;
+  margin-right: 70px;
+  width: 50%;
+}
+
+.box-one {
+  width: 100%;
+  /* flex-direction: row-reverse; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box {
+  width: 200px;
+  height: 150px;
+  background-color: rgb(34, 55, 98);
+  margin: 0px 6px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: bold; */
+  font-size: 1.5vw;
+}
+p {
+  font-weight: bold;
+}
+
+.box a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+/*------------------ page forth ----------------*/
+.forth-page {
+  background-image: url(MLP_Template_Image_Left.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+}
+
+.content-forth1 {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 160px;
+}
+
+/*--------- page five------- */
+.fifth-page {
+  background-image: url(IN-kids-30Jan._CB1517304519_.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.content-five {
+  color: white;
+  font-size: 2.5vw;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.content-five1 {
+  color: white;
+  font-size: 1.3vw;
+  padding-left: 100px;
+}
+
+.button-five {
+  padding-left: 100px;
+}
+
+/*--------- footer ------*/
+.footer {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(11, 11, 40, 0.294);
+}
+
+.footer-image {
+  background-image: url("web_footer_logo._CB462908456_.png");
+  background-size: cover;
+  background-image: transparent;
+  width: 15%;
+  height: 65px;
+  margin: 10px auto;
+}
+
+.footer-p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+/*-------- chat-gpt --------*/
+
+/* Add styles for the dropdown menus */
+.nav-item {
+  position: relative;
+}
+
+/* fg */
+.navbar {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#a {
+  font-weight: 2vw;
+}
+
+.logo {
+  color: white;
+  font-weight: 2vw;
+  padding-right: 50px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px; /* Adjust the spacing between menu items */
+  /* color: azure; */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgba(246, 253, 246, 0.227);
+  font-weight: lighter;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #e9d30e; /* Change the color on hover */
+}
+
+/* fdg */
+.dropdown {
+  position: absolute;
+  color: rgb(216, 226, 226);
+  top: 100%;
+  left: 0;
+  display: none;
+  /* background-color: #fff; */
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(250, 250, 250, 0.167);
+  z-index: 1;
+}
+
+.nav-links .nav-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown ul {
+  list-style: none;
+  font-size: 0.85w;
+  color: rgb(184, 23, 23);
+
+  padding: 0;
+}
+
+.dropdown ul li {
+  color: white;
+  /* margin: 5px 0; */
+}
+
+/* Add styles for the search icon */
+.fa-search {
+  font-size: 1vw;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Adjust other styles as needed for your existing navbar elements */
